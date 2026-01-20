@@ -284,9 +284,9 @@ async function processPageOperation(
 					screenshotOptions.quality = quality;
 				}
 
-				if (fileName) {
-					screenshotOptions.path = fileName;
-				}
+			if (fileName) {
+				screenshotOptions.path = fileName as any;
+			}
 
 				const screenshot = await page.screenshot(screenshotOptions);
 				if (screenshot) {

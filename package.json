@@ -1,16 +1,16 @@
 {
-  "name": "n8n-nodes-puppeteer",
-  "version": "1.4.1",
-  "description": "n8n node for browser automation using Puppeteer",
+  "name": "@laheud/n8n-nodes-puppeteer",
+  "version": "1.4.2",
+  "description": "n8n node for browser automation using Puppeteer (fork with improved browserWSEndpoint handling)",
   "license": "MIT",
-  "homepage": "https://github.com/drudge/n8n-nodes-puppeteer",
+  "homepage": "https://github.com/laHeud/n8n-nodes-puppeteer",
   "author": {
-    "name": "Nicholas Penree",
-    "email": "nick@penree.com"
+    "name": "laHeud",
+    "email": "clement@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drudge/n8n-nodes-puppeteer.git"
+    "url": "git+https://github.com/laHeud/n8n-nodes-puppeteer.git"
   },
   "main": "index.js",
   "scripts": {
